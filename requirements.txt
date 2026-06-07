@@ -1,0 +1,21 @@
+fastapi
+paho-mqtt
+sqlalchemy
+psycopg2
+pydantic
+uvicorn
+
+# Configurações do FactoryCore
+
+# Banco de Dados
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=factorycore
+DB_USER=admin
+DB_PASSWORD=senha_super_secreta
+
+# MQTT Broker
+MQTT_HOST=localhost
+MQTT_PORT=1883
+MQTT_USER=usuario_mqtt
+MQTT_PASSWORD=senha_mqtt
