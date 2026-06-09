@@ -1,0 +1,6 @@
+{
+  "peca_id": 1,
+  "codigo": "ERR-01",
+  "mensagem": "Superaquecimento no motor primário",
+  "severidade": "Alta"
+}

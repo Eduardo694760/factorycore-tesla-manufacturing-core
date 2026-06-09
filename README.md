@@ -38,3 +38,21 @@ Adote um padrão para manter o histórico limpo:
 Exemplo:
 ```powershell
 git commit -m "feat: adicionar módulo de telemetria"
+
+Diagrama ER
+Operador
+   │
+   └────── opera ──────► Máquina
+                              │
+                              │ gera
+                              ▼
+                     EventoTelemetry
+
+
+Lote
+  │
+  └──── contém ─────► Peça
+                            │
+                            │ possui
+                            ▼
+                         LogErro
